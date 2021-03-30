@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(0, 146, 73);
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin: 50px 0 0 0;
+}
+
+.input__tag {
+    margin: 10px;
+    width: 300px;
+    height: 28px;
+}
+
+.button__tag {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: green;
+    width: 140px;
+    height: 44px;
+    line-height: 40px;
+}
+
+.ol_tag {
+    padding-left: 0;
+    width: 300px;
+    list-style-position: inside;
+}
+
+.li_tag {
+    width: 90%;
+    margin: 8px;
+    border: 1px solid white;
+    padding: 5px;
+}
